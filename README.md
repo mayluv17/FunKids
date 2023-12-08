@@ -1,6 +1,20 @@
-# React + TypeScript + Vite
+# AdventureQuest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In the contemporary digital landscape, where children are increasingly drawn to screens and electronic entertainment, the imperative to encourage outdoor activities has never been more crucial. "AdventureQuest" emerges as a groundbreaking application designed to shift the focus from sedentary screen time to dynamic engagement with the outdoors.
+
+# Tech Stack
+- Javascript
+- React
+- NodeJs 
+- ExpressJs
+- MongoDB
+- Git Action
+- Aws
+
+
+View demo [here](https://github.com/jsx-eslint/eslint-plugin-react)
+
+<!-- This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
@@ -24,4 +38,4 @@ If you are developing a production application, we recommend updating the config
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list -->

@@ -46,6 +46,13 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             className: "mr-1 animate-spin",
           })}
 
+        {!isLoading &&
+          icon &&
+          createElement(icon, {
+            color: textColor,
+            className: "mr-1 h-8 w-8",
+          })}
+
         {isLoading ? "Loading..." : label}
       </button>
     );

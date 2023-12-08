@@ -1,10 +1,12 @@
-import { Route, Routes, Outlet } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Register from "./pages/register/Register";
 import Login from "pages/login/Login";
 import Dashboard from "pages/dashboard/Dashboard";
 import { useState } from "react";
 import NavBar from "components/NavBar";
 import SharedHeader from "components/SharedRoute";
+import Category from "pages/category/Category";
+import SingleTask from "pages/singleTask/singleTask";
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -19,12 +21,13 @@ const App = () => {
 
       <section className=" w-full transition duration-500 ease-in-out">
         <Routes>
-          <Route path="/" element={<Register />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
-        </Routes>
-        <Routes>
-          <Route element={<SharedHeader toggleMenu={toggleMenu} />}>
+
+          <Route path="/" element={<SharedHeader toggleMenu={toggleMenu} />}>
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/category/:category" element={<Category />} />
+            <Route path="/task/:taskId" element={<SingleTask />} />
           </Route>
         </Routes>
       </section>

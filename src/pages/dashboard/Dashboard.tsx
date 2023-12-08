@@ -13,6 +13,7 @@ const Dashboard = () => {
             icon={category.icon}
             title={category.title}
             subtitle={category.subtitle}
+            category={category.category}
           />
         ))}
       </div>

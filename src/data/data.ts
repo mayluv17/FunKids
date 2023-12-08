@@ -9,6 +9,7 @@ export interface categoryProp {
   subtitle: string;
   color: string;
   icon: string;
+  category: string;
 }
 
 export const categoryData: categoryProp[] = [
@@ -18,6 +19,7 @@ export const categoryData: categoryProp[] = [
     subtitle: "Earn at least 20 point from skating today",
     color: "bg-purple",
     icon: skating_icon,
+    category: "skating",
   },
   {
     id: 2,
@@ -25,6 +27,7 @@ export const categoryData: categoryProp[] = [
     subtitle: "Earn at least 20 point from swimming today",
     color: "bg-bluesky",
     icon: swimming_icon,
+    category: "swimming",
   },
   {
     id: 3,
@@ -32,6 +35,7 @@ export const categoryData: categoryProp[] = [
     subtitle: "Earn at least 20 point from Cycling today",
     color: "bg-onionDeep",
     icon: cycling_icon,
+    category: "cycling",
   },
   {
     id: 4,
@@ -39,5 +43,6 @@ export const categoryData: categoryProp[] = [
     subtitle: "Earn at least 20 point from Football today",
     color: "bg-yellow",
     icon: football_icon,
+    category: "football",
   },
 ];

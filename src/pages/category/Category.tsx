@@ -1,4 +1,4 @@
-import TaskCard from "components/taskCard";
+import TaskCard from "components/TaskCard";
 import { cn } from "lib/utils";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
